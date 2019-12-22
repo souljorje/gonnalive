@@ -1,0 +1,5 @@
+{
+  "*.{json,scss,css,md,js,vue}": ["pretty-quick --staged"],
+  "*.{js,vue}": ["eslint -f stylish --fix --ignore-path .eslintignore"],
+  "*": ["git add"]
+}
